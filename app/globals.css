@@ -14,7 +14,6 @@
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-
 .fancy-goo {
   filter: url("#fancy-goo");
 }
@@ -29,4 +28,22 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#scrollbar::-webkit-scrollbar {
+  width: 12px;
+  overflow: hidden;
+}
+
+#scrollbar::-webkit-scrollbar-track {
+  border-radius: 8px;
+  margin: 20px;
+  background-color: transparent;
+}
+
+#scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: border-box;
+  background-color: #fde047;
 }
