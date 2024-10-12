@@ -5,7 +5,7 @@ function Header() {
     <header className="w-full  relative flex">
       <div className="px-6 py-3 fancy-goo relative bg-white text-black font-serif">
         <div className="relative w-full text-black">
-          <div className="absolute w-[200px] bg-white -top-[1.7rem] -right-[7rem] h-4"></div>
+          <div className="absolute w-[200px] bg-white -top-[1.7rem] -right-[4rem] h-4"></div>
           <div className="absolute w-4 bg-white -end-[6rem] -left-[2.45rem] h-[100px]"></div>
           <h1 className="sm:text-xl md:text-xl lg:text-3xl text-nowrap font-bold">NEXT JS</h1>
         </div>
@@ -15,7 +15,10 @@ function Header() {
           <Link href={"/"} className="rounded-xl bg-glass font-bold text-md text-white text-center px-4 py-2">
             Home
           </Link>
-          <Link href={"/"} className="rounded-xl bg-glass font-bold text-md text-white text-center px-4 py-2">
+          <Link href={"/about"} className="rounded-xl bg-glass font-bold text-md text-white text-center px-4 py-2">
+            About
+          </Link>
+          <Link href={"/about"} className="rounded-xl bg-glass font-bold text-md text-white text-center px-4 py-2">
             About
           </Link>
         </div>
