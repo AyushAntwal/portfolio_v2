@@ -7,7 +7,7 @@
   background-size: cover;
   color: beige;
   /* background-image: ra-gradient(60deg, #0f1316 0%, #1a1e23 100%); */
-  background-image: radial-gradient(circle, #345570 5%, #000000 87%);
+  background-image: radial-gradient(circle,#f6e3e3  5%,#8ec4f1  87%);
 }
 
 .material-symbols-outlined {
